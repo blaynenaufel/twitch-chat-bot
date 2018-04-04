@@ -1,0 +1,16 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.0",
+  "description": "A Twtich chat bot.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blayne Naufel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "tmi.js": "^1.2.1"
+  }
+}
